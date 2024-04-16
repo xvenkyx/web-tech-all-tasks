@@ -7,7 +7,7 @@ export default function TableOne() {
         <a href="/index.html">Back</a>
       </p>
       <div className="max-w-sm items-center flex justify-center rounded shadow-lg">
-        <div className="font-bold text-3xl">College Time Table</div>
+        <div className="font-bold text-3xl">- College Time Table -</div>
       </div>
       <table>
         {/* <colgroup>
