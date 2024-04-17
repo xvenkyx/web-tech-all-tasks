@@ -1,11 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function TableOne() {
   return (
     <div>
-      <p>
-        <a href="/index.html">Back</a>
-      </p>
+      <Link to='/tasks'>Back</Link>
       <div className="max-w-sm items-center flex justify-center rounded shadow-lg">
         <div className="font-bold text-3xl">- College Time Table -</div>
       </div>
